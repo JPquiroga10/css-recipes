@@ -1,0 +1,46 @@
+
+body {
+    font-family:Open Sans, sans-serif;
+}
+header {
+    text-align: center;
+    padding:19% 37%;
+    color: white;
+    font-size: 1em
+      
+    }
+
+.center {
+    text-align:center;   
+
+
+}
+header.apple-pie {
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/apple-pie-starter-code/images/apple-pie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:
+    
+    
+}
+
+header.french-onion {
+    background-image: url("https://raw.githubusercontent.com/ironhack-labs/lab-css-recipes-clone/master/starter-code/french-onion-soup-starter-code/images/soup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+div.bottom-half {
+    margin: 0 100px;
+}
+ul.ingredients {
+    list-style-type:none;
+
+}
+.ingredients > li:before {
+    content:"- "
+}
+.cooking-info {
+    
+}
